@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <a href="https://argentinaprograma.inti.gob.ar"><img src="../../../assets/APLogo.png" id="logoAP" alt="Logo Argentina Programa"></a>
+        </div>
+        <div class="redes">
+            <button type="button" class="btn btn-outline-light mb-3" (click)="login()" *ngIf="!isLogged">Ingresar
+            </button>
+            <button type="button" class="btn btn-outline-light mb-3" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion
+            </button>
+            <div>
+                <a href="https://ar.linkedin.com"><img src="../../../assets/linkedin.png" id="linkedin" alt=""></a>
+                <a href="https://www.instagram.com" class="m-2"><img src="../../../assets/instagram.png" id="instagram" alt=""></a>
+                <a href="https://es-la.facebook.com"><img src="../../../assets/facebook.png" id="facebook" alt=""></a>
+                <a href="https://github.com/LeandroMoyano" class="m-2"><img src="../../../assets/github.png" id="github" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+

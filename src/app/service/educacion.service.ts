@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  //URL = 'https://backendlnm.onrender.com/educacion/';
+  //URL = 'https://backendlnm-4s8n.onrender.com/educacion/';
   URL = environment.URL + 'educacion/';
 
   constructor(private httpClient : HttpClient) { }
